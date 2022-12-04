@@ -11,14 +11,18 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 1.5rem;
-    box-shadow: 1px 1px 1px;
     box-sizing: border-box;
-    height: 15vh;
+    min-height: 15vh;
+    flex-wrap: wrap;
+}
+.left-nav{
+    word-wrap: break-word;
 }
 #nav-item{
     display: flex;
     gap: 20px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 #sub-item{
     display: flex;
@@ -53,4 +57,18 @@
     border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.164);
     cursor: pointer;
+}
+#barIcon{
+    display: none;
+}
+
+
+@media only screen and (max-width:1020px) {
+    .item{
+        display: none;
+    }
+    
+    #barIcon{
+    display: block;
+}
 }

@@ -36,3 +36,7 @@ subName.forEach(e=>{
         e.setAttribute('class','')
     })
 })
+
+str.addEventListener('mousedown',()=>{
+    str.style.color = 'gold'
+})
