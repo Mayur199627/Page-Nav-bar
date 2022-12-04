@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="left-nav">
+            <ul id="nav-item">
+                <li id="logo"><i class="fa-regular fa-file"></i></li>
+                <li>My Document <span id="star"><i class="fa-solid fa-star"></i></span>
+                    <ul id="sub-item">
+                    <li class="item">File</li>
+                    <li class="item">Edit</li>
+                    <li class="item">View</li>
+                    <li class="item">Insert</li>
+                    <li class="item">Format</li>
+                    <li class="item">Tools</li>
+                    <li class="item">Extensions</li>
+                    <li class="item">Help</li>
+                </ul></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li class="item"><i class="fa-regular fa-message"></i></li>
+                <li class="item"><i class="fas fa-video"></i>  <i class="fa-solid fa-caret-down"></i></li>
+                <li><button id="share"><i class="fa-solid fa-lock"></i> Share</button></li>
+                <li class="item"><i class="fa-solid fa-user"></i></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <script src="index.js"></script>
+</body>
+
+</html>
